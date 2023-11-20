@@ -42,7 +42,7 @@ The two most important customers of the firm may have been hacked. I will verify
 
 Card holder 2 have very frequent transcations amounting between $1 to $20.
 Card holder 18 uses their card sparsely and has transcations amounting between $10 to $1750, with many big purchases above $1000 once in a while.
-The difference don't necessary suggest fraudelent transactions. The purchases of card holder 18 could be paying off bigger debts to avoid accured tax for example or simply buying furniture. There is not enough evidence, data to suggest there is a fraudelent pattern appearing on either of the card holders.
+The difference don't necessary suggest fraudelent transactions. The purchases of card holder 18 could be paying off bigger debts to avoid accured tax for example or simply buying furniture. There is not enough evidence data to suggest there is a fraudelent pattern appearing on either of the card holders.
 
 The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. Again, for privacy reasons, I know only that the cardholder ID in question is 25.
 Using hvPlot, I will create a box plot, representing the expenditure data from January 2018 to June 2018 for cardholder ID 25.

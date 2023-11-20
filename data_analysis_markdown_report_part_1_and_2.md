@@ -53,8 +53,8 @@ Yes. There seems to be outliers ranging from 1 to 3 dependent on the month. Febr
 
 ### Do you notice any anomalies? Describe your observations and conclusions.
 
-The most concerning anomalies are the outliers with purchase amounts in the thousand ranges. This leds to an alarming conclusion and the transactions will
-need to be carefully reviewed to come with the conclusion.
+The most concerning anomalies are the outliers with purchase amounts in the thousand ranges. This lads to an alarming conclusion and the transactions will
+need to be carefully reviewed.
 
 ![Picture](https://www.columbia.edu/content/themes/custom/columbia/assets/img/cu-header.svg)
 

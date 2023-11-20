@@ -25,7 +25,7 @@ I am asked to accomplish three main tasks:
 ### 2. Read ReadME file containing my markdown report
 
 In the repo are other submissions required:
-* An image file of my ERD 
+* An image file of my ERD named "QuickDBD-Data Modeling Entity Relationship Diagram (ERD) Table Schema.png"
 * The .sql file of my table schemata named "schema.sql"
 * The .sql file of my queries "queries.sql"
 * The Jupyter Notebook containing my visual data analysis named "visual_data_analysis.ipynb" to help with Data Analysis Part 1

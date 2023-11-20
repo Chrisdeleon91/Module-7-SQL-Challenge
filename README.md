@@ -26,12 +26,11 @@ I am asked to accomplish three main tasks:
 
 In the repo are other submissions required:
 * An image file of my ERD 
-* The .sql file of my table schemata
-* The .sql file of my queries
-* The Jupyter Notebook containing my visual data analysis
-* A ReadME file containing my markdown report
-*
-*
+* The .sql file of my table schemata named "schema.sql"
+* The .sql file of my queries "queries.sql"
+* The Jupyter Notebook containing my visual data analysis named "visual_data_analysis.ipynb" to help with Data Analysis Part 1
+* A ReadME file containing my markdown report containing Data Analysis Part 1 and 2 questions/answers
+  
 * ![QuickDBD-Data Modeling Entity Relationship Diagram (ERD) Table Schema](https://github.com/Chrisdeleon91/Module-7-SQL-Challenge/assets/22796940/892b432d-d8ee-4a10-9673-6f6db2103706)
 
 ![Picture](https://www.columbia.edu/content/themes/custom/columbia/assets/img/cu-header.svg)

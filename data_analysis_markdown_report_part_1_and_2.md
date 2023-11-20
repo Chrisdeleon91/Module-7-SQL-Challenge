@@ -34,74 +34,27 @@ If you do find that there is a higher number of fraudulent transactions made bet
 * Implementing fraud detection systems that can identify and stop fraudulent transactions in real time.
 * Monitoring fraudulent activity closely and taking action to address any trends that you see.
 
-
-
 ### Part 2:
-My CFO has also requested detailed trends data on specific card holders. Using the starter notebook to query my database and generate visualizations that supply the requested information as follows,
-then adding my visualizations and observations to my markdown report:
-The two most important customers of the firm may have been hacked. I will verify if there are any fraudulent transactions in their history. For privacy reasons, I only know that their cardholder IDs are 2
-and 18. Using hvPlot, I will create a line plot representing the time series of transactions over the course of the year for each cardholder separately.
-Next, to better compare their patterns, I will create a single line plot that contains both card holders' trend data.
+My CFO has also requested detailed trends data on specific card holders. Using the starter notebook to query my database and generate visualizations that supply the requested information as follows, then adding my visualizations and observations to my markdown report:
+The two most important customers of the firm may have been hacked. I will verify if there are any fraudulent transactions in their history. For privacy reasons, I only know that their cardholder IDs are 2 and 18. Using hvPlot, I will create a line plot representing the time series of transactions over the course of the year for each cardholder separately. Next, to better compare their patterns, I will create a single line plot that contains both card holders' trend data.
 
 ### What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale.
 
-* Analyze Transaction Patterns: For cardholders with IDs 2 and 18, create line plots representing their transaction trends over the entire year.
-* Compare Patterns: Create a single line plot showing both cardholders' transaction trends together.
-* Observe Differences: Analyze the differences in consumption patterns between the two cardholders.
-* Assess Fraudulent Activity: Determine whether the observed differences suggest possible fraudulent transactions.
+Card holder 2 have very frequent transcations amounting between $1 to $20.
+Card holder 18 uses their card sparsely and has transcations amounting between $10 to $1750, with many big purchases above $1000 once in a while.
+The difference don't necessary suggest fraudelent transactions. The purchases of card holder 18 could be paying off bigger debts to avoid accured tax for example or simply buying furniture. There is not enough evidence, data to suggest there is a fraudelent pattern appearing on either of the card holders.
 
-Reasons for Identifying Potential Fraudulent Transactions:
-* Protecting Customers: Identifying potential fraudulent transactions helps protect customers from financial losses and identity theft. By detecting fraudulent activity early, you can prevent unauthorized charges and alert customers of potential breaches.
-
-* Mitigating Financial Losses: Fraudulent transactions can lead to significant financial losses for both customers and businesses. Identifying and preventing fraudulent activity helps minimize these losses and protects the overall financial health of the business.
-
-* Maintaining Customer Trust: Demonstrating proactive measures to combat fraud fosters trust and confidence among customers. By addressing fraudulent activity promptly, you show customers that their financial security is a priority.
-
-Reasons for Investigating Potential Unauthorized Charges:
-
-* Verifying Customer Claims: Investigating potential unauthorized charges allows you to verify customer claims and determine whether their concerns are legitimate. This helps ensure that genuine cases of unauthorized usage are addressed promptly.
-
-* Identifying Unauthorized Usage Patterns: Investigating unauthorized charges can reveal patterns of fraudulent activity, such as unusual spending habits or transactions from unfamiliar locations. These patterns can help identify potential fraudsters and prevent future incidents.
-
-* Protecting Cardholder Information: Investigating unauthorized charges helps protect cardholder information from further misuse. By identifying and addressing unauthorized activity, you can prevent cardholders' credentials from being exploited for fraudulent transactions. 
-
-The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills.
-Again, for privacy reasons, I know only that the cardholder ID in question is 25.
+The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. Again, for privacy reasons, I know only that the cardholder ID in question is 25.
 Using hvPlot, I will create a box plot, representing the expenditure data from January 2018 to June 2018 for cardholder ID 25.
 
 ### Are there any outliers for cardholder ID 25? How many outliers are there per month?
+
+Yes. There seems to be outliers ranging from 1 to 3 dependent on the month. February is the only month without any outlier.
+
 ### Do you notice any anomalies? Describe your observations and conclusions.
 
-* Visualize Expenditure Data: Create a box plot representing the expenditure data for cardholder ID 25 from January 2018 to June 2018.
-* Identify Outliers: Identify any outliers in the expenditure data for cardholder ID 25.
-* Analyze Outlier Distribution: Determine the number of outliers per month.
-* Assess Anomalies: Analyze the presence of anomalies and draw conclusions about potential unauthorized charges.
-
-Reasons for Identifying Potential Fraudulent Transactions:
-
-* Protecting Customers: Identifying potential fraudulent transactions helps protect customers from financial losses and identity theft. By detecting fraudulent activity early, you can prevent unauthorized charges and alert customers of potential breaches.
-
-* Mitigating Financial Losses: Fraudulent transactions can lead to significant financial losses for both customers and businesses. Identifying and preventing fraudulent activity helps minimize these losses and protects the overall financial health of the business.
-
-* Maintaining Customer Trust: Demonstrating proactive measures to combat fraud fosters trust and confidence among customers. By addressing fraudulent activity promptly, you show customers that their financial security is a priority.
-
-Reasons for Investigating Potential Unauthorized Charges:
-
-* Verifying Customer Claims: Investigating potential unauthorized charges allows you to verify customer claims and determine whether their concerns are legitimate. This helps ensure that genuine cases of unauthorized usage are addressed promptly.
-
-* Identifying Unauthorized Usage Patterns: Investigating unauthorized charges can reveal patterns of fraudulent activity, such as unusual spending habits or transactions from unfamiliar locations. These patterns can help identify potential fraudsters and prevent future incidents.
-
-* Protecting Cardholder Information: Investigating unauthorized charges helps protect cardholder information from further misuse. By identifying and addressing unauthorized activity, you can prevent cardholders' credentials from being exploited for fraudulent transactions.
-
-Reasons for Analyzing Outlier Distribution and Drawing Conclusions about Potential Unauthorized Charges:
-
-* Gaining Insights into Expenditure Patterns: Analyzing outlier distribution and drawing conclusions can provide valuable insights into cardholder expenditure patterns and identify potential anomalies.
-
-* Assessing the Likelihood of Unauthorized Usage: Outlier analysis can help assess the likelihood of unauthorized card usage by examining unusual spending patterns and concentrated outliers.
-
-* Guiding Further Investigation and Protective Measures: Conclusions drawn from outlier analysis can guide further investigation, such as contacting the cardholder or reviewing transaction details. Additionally, it can help implement appropriate security measures to prevent future fraudulent activity.
-
-* Protecting Cardholders and the Business: By analyzing outlier distribution and drawing conclusions about potential unauthorized charges, you can protect cardholders from financial losses and safeguard the business from fraudulent activities. This proactive approach helps maintain trust and financial stability.
+The most concerning anomalies are the outliers with purchase amounts in the thousand ranges. This leds to an alarming conclusion and the transactions will
+need to be carefully reviewed to come with the conclusion.
 
 ![Picture](https://www.columbia.edu/content/themes/custom/columbia/assets/img/cu-header.svg)
 
